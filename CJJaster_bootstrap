@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <title>Cody Jaster Webume</title>
+<body>
+
+<div>
+
+  <h1.class="sansserif" class="center">Cody Jaster</h1>
+  <img src="pink tractor.jpg" alt="pink_tractor.jpg"
+  style="width:150px;height:250px;">
+  <p class="cursive">
+    Wife, Mother, owner of John 3:16 Farm and future Web-developer
+  </p>
+</div>
+</body>
+</html>

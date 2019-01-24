@@ -1,0 +1,56 @@
+body {
+  background-color: mediumaquamarine;
+  color: darkslategray;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: magenta;
+}
+
+/* visited link */
+a:visited {
+  color: darkgreen
+}
+/*selected link */
+a:active {
+  color: hotpink;
+}
+
+table,th, td {
+  background-color: oldlace
+  }
+
+th {
+  padding: 20px;
+  font-size: 35px;
+  text-align: left;
+}
+td {padding: 15px;
+    font-size: 20px;
+    text-align: right;
+  }
+
+div{font-size: 20px;
+    font-weight: bold;
+    }
+
+/*wife, mother... */
+.cursive {
+  font-family: Florence, cursive;
+  text-align: center;
+}
+
+/* - about me --*/
+.box1{
+  font-style: italic;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

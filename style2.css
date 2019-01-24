@@ -1,0 +1,98 @@
+body {
+  background-color: mediumaquamarine;
+  color: darkslategray;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+div.background {
+  background: url(https://farm9.staticflickr.com/8123/8603137018_3422309d97_b.jpg);
+  border: 3px solid black;
+}
+
+div.transbox {
+  margin: 40px;
+  background-color: beige;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: opacity(50);
+}
+
+/* unvisited link */
+a:link {
+  color: magenta
+}
+
+/* visited link */
+a:visited {
+  color: darkgreen
+}
+/*selected link */
+a:active {
+  color: hotpink;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  align: center
+}
+
+/* start gallery */
+div.gallery {
+  margin: 5px;
+  border: 2px solid navy;
+}
+
+div.gallery:hover {
+  border: 2px solid navy;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.9999%;
+}
+
+.responsive2 {
+  padding: 0 8px;
+  float: left;
+  height: 25.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end gallery */
+
+
+/*wife, mother... */
+.cursive {
+  font-family: Florence, cursive;
+  text-align: center;
+}
+
+/* - about me --*/
+.box1{
+  font-style: italic;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
